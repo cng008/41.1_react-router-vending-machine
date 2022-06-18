@@ -1,0 +1,41 @@
+.VendingMachine {
+  text-align: center;
+  background-image: url('https://64.media.tumblr.com/369bea35cf50c57aa4cb31df6c8f4da3/tumblr_nvzkh3Dgkh1uexxavo2_500.png');
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.VendingMachine-Items {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 1em;
+  padding: 1em;
+  margin-right: 3em;
+  margin-top: 3em;
+  float: right;
+}
+
+.VendingMachine-Items > a {
+  color: lightgrey;
+}
+
+.VendingMachine-Items > a:hover {
+  color: white;
+}
+
+a {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 1em 0;
+}
+
+a:hover {
+  transform: scale(1.05);
+}
